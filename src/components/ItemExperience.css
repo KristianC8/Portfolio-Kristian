@@ -1,0 +1,98 @@
+.itemexp {
+    display: grid;
+    grid-template-columns: 1.5fr .5fr 8fr;
+    gap: 8rem;
+}
+
+.itemexp-date {
+    display: flex;
+    flex-direction: column;
+    min-width: 200rem;
+    color: #c0c0c0;
+}
+
+.itemexp-timeline {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: aqua; */
+}
+
+.itemexp-timeline svg {
+    position: absolute;
+    width: 30rem;
+    height: 30rem;
+    /* color: #2d2d2d; */
+    color: #C69749;
+}
+
+.timeline-space {
+    height: 30rem;
+    width: 2rem;
+}
+
+.timeline {
+    height: 100%;
+    width: 2rem;
+    /* background-color: #f2613f; */
+    background-color: #C69749;
+}
+
+/* .itemexp-container {
+    background-color: yellow;
+} */
+
+.itemexp-information {
+    padding: 0 0 10rem 3%;
+}
+
+/* .itemexp-title {
+    color: #f2613f;
+} */
+
+.itemexp-enterprise {
+    color: #f2613f;
+}
+
+.itemexp-description {
+    color: #c0c0c0;
+    text-wrap: pretty;
+
+}
+
+.itemexp-description span {
+    display: block;
+    font-size: var(--font-secondsizeText);
+}
+
+
+@media only screen and (max-width: 1400px) {
+    .itemexp-timeline svg {
+        width: 24rem;
+        height: 24rem;
+    }
+
+    .timeline-space {
+        height: 24rem;
+    }
+
+    .itemexp-date {
+        min-width: 120rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .itemexp-timeline svg {
+        width: 21rem;
+        height: 21rem;
+    }
+
+    .timeline-space {
+        height: 21rem;
+    }
+
+    .itemexp-date {
+        min-width: 100rem;
+    }
+}

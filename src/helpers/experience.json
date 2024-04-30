@@ -1,0 +1,18 @@
+{
+    "Experiencia": [
+        {
+            "id": 1,
+            "company": "Thomas Processing & Systems",
+            "date": "Junio-2023",
+            "position": "Analista de Desarrollo para Calidad",
+            "description": "● Pruebas funcionales en aplicaciones Móviles y Portales Web de gestión electoral. (Smoke, regresión, Aceptación) \n● Diseño y ejecución de casos de prueba. \n● Reporte, gestión y validación de defectos (Bugs). \n● Documentación de pruebas. \n● SRCUM"
+        },
+        {
+            "id": 2,
+            "company": "Tata Consultancy Services (TCS)",
+            "date": "Agosto-2022",
+            "position": "Testing Analyst (Analista de pruebas funcionales)",
+            "description": "● Pruebas funcionales en aplicaciones Móviles y Portales Web para una entidad financiera. (Smoke, regresión, Aceptación) \n ● Diseño y ejecución de casos de prueba. \n ● Reporte, gestión y validación de defectos (Bugs)."
+        }
+    ]
+}

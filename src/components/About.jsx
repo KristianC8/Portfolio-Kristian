@@ -1,0 +1,61 @@
+import { Badge } from './Badge'
+import './About.css'
+import { ComponentGithub } from './icons/ComponentGithub'
+import { ComponentLinkedIn } from './icons/ComponentLinkedIn'
+import { ComponetContact } from './icons/ComponetContact'
+import { ComponentCV } from './icons/ComponentCV'
+import hv from '../assets/pdf/KRISTIAN DARIO CIFUENTES VERA.pdf'
+
+export const About = ({ foto }) => {
+    return (
+
+        <section className="about">
+            <div className="about-information">
+                <div className="about-containerlogo">
+                    <img className="about-logo" src={foto} alt="Foto de Kritian Cifuentes" />
+                </div>
+                <div className="about-data">
+                    <h2>Kristian Cifuentes</h2>
+                    <h2 className="data-profesion">Desarrollador Web Frontend</h2>
+                    <div className="about-social">
+                        <Badge name="Github" link="https://github.com/KristianC8" svg={<ComponentGithub />} />
+                        <Badge name="LinkedIn" link="https://www.linkedin.com/in/kristian-dario-cifuentes-vera-bb24b5159/" svg={<ComponentLinkedIn />} />
+                    </div>
+                </div>
+
+                <div className="about-contact">
+                    <a className="about-buttonlink" href={hv} rel="noopener noreferer" target="_blank" title='CV'>
+                        <button className="about-button button-downloadcv">
+                            <span>CV</span>
+                            <ComponentCV />
+                        </button>
+                    </a>
+                    <a className="about-buttonlink" href="mailto:kristian.cifuentesv@gmail.com" rel="noopener noreferer" target="_blank" title='Contacto'>
+                        <button className="about-button button-contactme">
+                            <span>Contacto</span>
+                            <ComponetContact />
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div className="about-aboutMe">
+                <div className="aboutme-console">
+                    <div className="console-header">
+                        <h2>Sobre Mi/</h2>
+                        <span className='console-availabletxt'>Disponible</span>
+                        <div className="console-button console-available"></div>
+                    </div>
+                    <div className="console-body">
+                        <h1>Hola soy <span>Kristian</span>.</h1>
+                        <p>
+                            Ingeniero en Telecomunicaciones de Bogotá, Colombia. Cuento con tres años de experiencia como Analista de Calidad de Software y ahora como Desarrollador Web, lo que busco es integrar la funcionalidad con un diseño limpio para ofrecer una experiencia de usuario intuitiva, llamativa visualmente y efectiva en su propósito.
+                            {/* Ingeniero en Telecomunicaciones de Bogotá, Colombia. Cuento con tres años de experiencia como Analista de Calidad de Software y ahora como Desarrollador Web, lo que busco es integrar la funcionalidad con una buena apariencia para ofrecer una experiencia de usuario intuitiva, llamativa visualmente y efectiva en su propósito. */}
+                        </p>
+                        {/* <p></p> */}
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    )
+}

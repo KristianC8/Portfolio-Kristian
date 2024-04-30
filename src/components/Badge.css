@@ -1,0 +1,42 @@
+.badge-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    padding: 2rem 8rem;
+    text-decoration: none;
+    color: #c0c0c0;
+    border: 1rem solid;
+    opacity: 0.7;
+
+}
+
+.badge-link:hover {
+    opacity: 1;
+}
+
+.badge-link span {
+    font-size: var(--font-secondsizeText);
+}
+
+.badge-link svg {
+    height: 20rem;
+    width: 20rem;
+}
+
+
+
+
+@media only screen and (max-width: 1000px) {
+    .badge-link {
+        padding: 5rem;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .badge-link span {
+        display: none;
+        width: fit-content;
+    }
+}

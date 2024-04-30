@@ -1,0 +1,119 @@
+.projectItem {
+    border: solid thin #d8d8d810;
+    display: flex;
+}
+
+.projectItem-img {
+    display: block;
+    aspect-ratio: 16/9;
+    width: 60%;
+}
+
+.projectItem-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40%;
+    padding: 2% 5% 3% 5%;
+}
+
+.projectItem-title {}
+
+.projectItem-division {
+    display: flex;
+    padding: 5rem 30rem;
+}
+
+.projectItem-divn {
+    display: block;
+    width: 50%;
+    height: 1rem;
+    /* background-color: #f2613f; */
+    background-color: #C69749;
+}
+
+.divn-left {
+    mask-image: linear-gradient(to left,
+            white 50%,
+            transparent);
+}
+
+.divn-right {
+    mask-image: linear-gradient(to right,
+            white 50%,
+            transparent);
+}
+
+.projectItem-description {
+    color: #c0c0c0;
+    text-wrap: pretty;
+    font-size: var(--font-secondsizeText);
+    margin-bottom: 10rem;
+}
+
+.projectItem-buttons {
+    display: flex;
+    gap: 10rem;
+}
+
+.projectItem-buttons a {
+    text-decoration: none;
+}
+
+.projectItem-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    width: fit-content;
+    height: fit-content;
+    padding: 5rem;
+    border: none;
+    background-color: #f2613f;
+    color: #ffffff;
+    cursor: pointer;
+    opacity: .9;
+    transition: background-color ease .5s;
+}
+
+.projectItem-button:hover {
+    opacity: 1;
+}
+
+.projectItem-button span {
+    font-size: var(--font-secondsizeText);
+}
+
+.projectItem-button svg {
+    height: 30rem;
+    width: 30rem;
+}
+
+@media only screen and (max-width: 1400px) {
+    .projectItem-button svg {
+        height: 24rem;
+        width: 24rem;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .projectItem {
+        display: block;
+    }
+
+    .projectItem-img {
+        width: 100%;
+    }
+
+    .projectItem-content {
+        display: block;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .projectItem-button svg {
+        height: 21rem;
+        width: 21rem;
+    }
+}

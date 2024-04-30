@@ -1,0 +1,56 @@
+#root {
+  min-width: 320rem;
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  gap: 70rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 70rem;
+}
+
+/*
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+} */
+
+@media only screen and (max-width: 1400px) {
+  #root {
+    width: 70vw;
+  }
+}
+
+
+@media only screen and (max-width: 1000px) {
+  #root {
+    gap: 40rem;
+  }
+}
+
+@media only screen and (max-width: 867px) {
+  #root {
+    width: 80vw;
+    gap: 50rem;
+  }
+}
+
+@media only screen and (max-width: 743px) {
+  #root {
+    width: 87vw;
+    gap: 50rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #root {
+    width: 95vw;
+    gap: 50rem;
+  }
+}

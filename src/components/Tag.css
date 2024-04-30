@@ -1,0 +1,28 @@
+.tag {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    width: fit-content;
+    padding: 2rem;
+    font-size: 16rem;
+    line-height: 16rem;
+    background-color: #d8d8d810;
+    color: #c0c0c0;
+    border: solid thin #C69749;
+}
+
+.tag svg {
+    height: 16rem;
+    width: 16rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .tag {
+        font-size: 12rem;
+    }
+
+    .tag svg {
+        height: 12rem;
+        width: 12rem;
+    }
+}

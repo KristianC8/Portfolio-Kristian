@@ -1,0 +1,298 @@
+.about {
+    display: flex;
+}
+
+.about-information {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 20rem;
+    justify-content: space-between;
+    min-width: 300rem;
+    padding: 40rem 0 0 0;
+    background: url('../assets/img/img-noise-361x370.png');
+    background-size: cover;
+    background-position: center;
+    /* background-color: #50b432; */
+    border: solid 1rem #d8d8d810;
+    z-index: 1;
+}
+
+
+.about-containerlogo {
+    width: 150rem;
+    height: 150rem;
+    border-radius: 50%;
+
+}
+
+.about-logo {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #c8c8c810;
+}
+
+.about-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10rem;
+}
+
+.data-profesion {
+    font-size: var(--font-secondsizeText);
+    color: var(--subtitle-color);
+}
+
+.about-social {
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+}
+
+.about-contact {
+    width: 100%;
+    display: flex;
+}
+
+.about-buttonlink {
+    width: 50%;
+    text-decoration: none;
+}
+
+.about-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    width: 100%;
+    height: 60rem;
+    border: solid thin #2d2d2d;
+    background-color: #d8d8d810;
+    cursor: pointer;
+    transition: background-color ease .5s;
+    opacity: .8;
+    color: #c0c0c0;
+}
+
+.about-button:hover {
+    opacity: 1;
+}
+
+.about-button span {
+    font-size: var(--font-secondsizeText);
+    color: #c0c0c0;
+}
+
+.about-button svg {
+    height: 30rem;
+    width: 30rem;
+}
+
+.about-aboutMe {
+    display: flex;
+    flex-flow: row;
+    justify-content: end;
+}
+
+.aboutme-console {
+    height: 100%;
+    width: 97%;
+}
+
+.console-header {
+    height: fit-content;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 0 20rem;
+    gap: 10rem;
+    background-color: #d8d8d810;
+}
+
+.console-header h2 {
+    padding: 10rem 0;
+    margin: 0 auto 0 0;
+}
+
+.console-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: fit-content;
+    min-height: 350rem;
+    padding: 5% 10%;
+    background-color: #101010;
+    color: #c0c0c0;
+    text-wrap: pretty;
+}
+
+.console-body h1 {
+    font-size: 28rem;
+    font-weight: 500;
+    margin-bottom: 20rem;
+}
+
+.console-body p {
+    font-size: var(--font-secondsizeText);
+    margin-bottom: 20rem;
+}
+
+.console-body span {
+    color: #f2613f;
+    font-size: 28rem;
+}
+
+.console-button {
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+}
+
+/* background-color: #f1ae1b; */
+/* background-color: #e9524a; */
+
+.console-available {
+    background-color: #59c837;
+}
+
+.console-availabletxt {
+    font-size: var(--font-secondsizeText);
+    color: #59c837;
+}
+
+@media only screen and (max-width: 1400px) {
+    .about-button svg {
+        height: 24rem;
+        width: 24rem;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .about {
+        margin-top: 5rem;
+        flex-direction: column;
+        gap: 30rem;
+    }
+
+    .about-information {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: initial;
+        padding: 0;
+    }
+
+    .about-data {
+        gap: 15rem;
+    }
+
+    .about-containerlogo {
+        padding: 20rem;
+    }
+
+    .about-social {
+        gap: 10rem;
+    }
+
+    .about-contact {
+        width: 150rem;
+        height: 74%;
+        padding-right: 20rem;
+        flex-direction: column;
+        align-items: end;
+        justify-content: center;
+        gap: 10rem;
+    }
+
+    .about-buttonlink {
+        width: 80%;
+        height: 50%;
+    }
+
+    /* .about-button {
+        width: 80%;
+        height: 50%;
+    } */
+
+    .about-button span {
+        display: none;
+    }
+
+    .aboutme-console {
+        width: 100%;
+    }
+
+    .console-body {
+        padding: 40rem 8%;
+        min-height: 300rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .about {
+        margin-top: 152rem;
+    }
+
+    .about-information {
+        /* position: sticky; */
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        min-width: 320rem;
+    }
+
+    .about-data {
+        padding: 5rem 0;
+        gap: 10rem;
+    }
+
+    .about-containerlogo {
+        width: 18.75%;
+        height: auto;
+        padding: 5rem;
+    }
+
+    .about-contact {
+        flex-direction: column;
+        align-items: end;
+        padding-right: 0;
+        height: 100%;
+        gap: 2rem;
+        /* width: 60rem; */
+        width: 18.75%;
+    }
+
+    .about-buttonlink {
+        width: 100%;
+        height: 60rem;
+    }
+
+    .about-button svg {
+        height: 21rem;
+        width: 21rem;
+    }
+
+    .console-button {
+        display: none;
+    }
+
+    .aboutme-console {
+        width: 100%;
+    }
+
+    .console-body {
+        padding: 30rem 8%;
+        min-height: 300rem;
+    }
+
+}
+
+@media only screen and (min-width: 1400px) {
+    .about-information {
+        min-width: 360rem;
+    }
+}
