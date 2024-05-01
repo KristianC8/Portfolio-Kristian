@@ -1,13 +1,16 @@
 import React from 'react'
 import './Projects.css'
 import { ProjectItem } from './ProjectItem'
+import img from '../assets/img/videogames_spa.avif'
+
+
 
 export const Projects = () => {
 
     const projects = [
         {
             id: 1,
-            image: "./src/assets/img/SPA.webp",
+            image: { img },
             title: "SPA VIDEOGAMES",
             description: "Página con un extenso catálogo de videojuegos de diversas plataformas. Desarrollada como una Single Page Application (SPA), con Vanilla JavaScript. Todos los datos de los videojuegos fueron obtenidos desde una API externa.",
             linkSite: "https://stunning-druid-49424c.netlify.app/",
