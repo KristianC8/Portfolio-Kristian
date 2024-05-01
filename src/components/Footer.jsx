@@ -7,7 +7,7 @@ export const Footer = () => {
         <footer className="footer">
             <div className='footer-logo' title='Developed by Kristian Cifuentes'></div>
             <div className='footer-date'>2024</div>
-            <a href="https://www.linkedin.com/in/kristian-dario-cifuentes-vera-bb24b5159/" target='_blank' rel='noopener noreferer'>
+            <a href="https://github.com/KristianC8/Portfolio-Kristian" target='_blank' rel='noopener noreferer'>
                 Code
                 <ComponentGithub />
             </a>
