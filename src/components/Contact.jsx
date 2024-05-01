@@ -1,9 +1,23 @@
-import React from 'react'
+import { useState, useEffect } from 'react'
 import './Contact.css'
 import { useForm } from '../hooks/useForm'
 import { Loader } from './Loader'
+import { ReCaptcha } from './reCaptcha/ReCaptcha'
 
 export const Contact = () => {
+
+    const [isCaptchaVerified, setIsCaptchaVerified] = useState(false)
+    const [token, setToken] = useState('')
+
+    useEffect(() => {
+        if (token.length) {
+            setIsCaptchaVerified(true)
+            setTimeout(() => {
+                setIsCaptchaVerified(false)
+            }, 10000);
+        }
+    }, [token])
+
 
     const initialForm = {
         name: "",
@@ -43,6 +57,10 @@ export const Contact = () => {
         // }
 
         return errors
+    }
+
+    const handleRecaptchaVerify = (token) => {
+        setToken(token)
     }
 
     const { formstate, errors, loader, response, hasValidated, onInputChange, handleBlur, handleKeyUp, handleSubmit } = useForm(initialForm, validateForm)
@@ -103,9 +121,12 @@ export const Contact = () => {
                 >
                 </textarea>
                 {errors.message && <span className="contact-error">{errors.message}</span>}
-
-
-                <button className="contact-submit" type="submit" disabled={!hasValidated || Object.keys(errors).length !== 0}>
+                <div className='recaptcha'>
+                    <div className='recaptcha-container'>
+                        <ReCaptcha sitekey={'6LcRq8wpAAAAAEwqNFCKvgZIaM9MvgJqJfTjU9ZU'} callback={handleRecaptchaVerify} />
+                    </div>
+                </div>
+                <button className="contact-submit" type="submit" disabled={!hasValidated || Object.keys(errors).length !== 0 || !isCaptchaVerified}>
                     {loader ? <Loader /> : "Enviar"}
                 </button>
                 <div className="contact-response">

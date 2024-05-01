@@ -64,6 +64,21 @@
     font-weight: 700;
 }
 
+.recaptcha {
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    overflow-y: hidden;
+    height: 74rem;
+}
+
+.recaptcha-container {
+    display: block;
+    width: 300rem;
+    overflow: hidden;
+
+}
+
 @media only screen and (max-width: 1100px) {
     .contact-form {
         padding: 30rem 0 0 0;

@@ -36,6 +36,7 @@ export const useForm = (intialForm = {}, validateForm) => {
         e.preventDefault()
         setLoader(true)
         setFormstate(intialForm)
+        window.grecaptcha.reset()
         helpHttp().post("https://formsubmit.co/ajax/f4e4d2495663830c9aa11c3b2fcf74a5", {
             body: formstate,
             headers: {
