@@ -73,6 +73,7 @@ export const Contact = () => {
 
                 <label htmlFor="name">Nombre: </label>
                 <input
+                    id='name'
                     className="contact-intext"
                     type="text" name="name"
                     autoComplete="off"
@@ -84,6 +85,7 @@ export const Contact = () => {
 
                 <label htmlFor="email">Email: </label>
                 <input
+                    id='email'
                     className="contact-intext"
                     type="text"
                     name="email"
@@ -97,8 +99,10 @@ export const Contact = () => {
 
                 <label htmlFor="subject">Asunto: </label>
                 <input
+                    id='subject'
                     className="contact-intext"
-                    type="text" name="subject"
+                    type="text"
+                    name="subject"
                     autoComplete="off"
                     value={subject}
                     onChange={onInputChange}
@@ -109,6 +113,7 @@ export const Contact = () => {
 
                 <label htmlFor="message">Mensaje:</label>
                 <textarea
+                    id='message'
                     className="contact-intext contact-txtarea"
                     name="message"
                     cols="50"
