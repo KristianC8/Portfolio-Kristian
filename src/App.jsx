@@ -8,6 +8,7 @@ import foto_Portfolio from './assets/img/Portfolio_Foto.avif'
 import { Skills } from './components/Skills'
 import { Contact } from './components/Contact'
 import { Footer } from './components/Footer'
+import { ScrollTop } from './components/ScrollTop'
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
         <Skills />
         <Contact />
         <Footer />
+        <ScrollTop />
       </main>
     </>
   )

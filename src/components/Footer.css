@@ -1,8 +1,9 @@
 .footer {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    height: 60rem;
+    align-items: start;
+    padding-top: 10rem;
+    height: 120rem;
     border-top: solid 1rem #d8d8d810;
 }
 
@@ -50,6 +51,11 @@
 
 
 @media only screen and (max-width: 600px) {
+
+    .footer {
+        height: 100rem;
+    }
+
     .footer-logo {
         height: 35rem;
     }

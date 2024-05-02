@@ -70,62 +70,67 @@ export const Contact = () => {
         <section className="contact" id="contact">
             <h2>Contacto/</h2>
             <form onSubmit={handleSubmit} className="contact-form">
+                <div className="contact-container">
+                    <div className='contact-div'>
+                        <label htmlFor="name">Nombre: </label>
+                        <input
+                            id='name'
+                            className="contact-intext"
+                            type="text" name="name"
+                            autoComplete="off"
+                            value={name} onChange={onInputChange}
+                            onKeyUp={handleKeyUp}
+                            onBlur={handleBlur}
+                        />
+                        {errors.name && <span className="contact-error">{errors.name}</span>}
 
-                <label htmlFor="name">Nombre: </label>
-                <input
-                    id='name'
-                    className="contact-intext"
-                    type="text" name="name"
-                    autoComplete="off"
-                    value={name} onChange={onInputChange}
-                    onKeyUp={handleKeyUp}
-                    onBlur={handleBlur}
-                />
-                {errors.name && <span className="contact-error">{errors.name}</span>}
+                        <label htmlFor="email">Email: </label>
+                        <input
+                            id='email'
+                            className="contact-intext"
+                            type="text"
+                            name="email"
+                            autoComplete="off"
+                            value={email}
+                            onChange={onInputChange}
+                            onKeyUp={handleKeyUp}
+                            onBlur={handleBlur}
+                        />
+                        {errors.email && <span className="contact-error">{errors.email}</span>}
 
-                <label htmlFor="email">Email: </label>
-                <input
-                    id='email'
-                    className="contact-intext"
-                    type="text"
-                    name="email"
-                    autoComplete="off"
-                    value={email}
-                    onChange={onInputChange}
-                    onKeyUp={handleKeyUp}
-                    onBlur={handleBlur}
-                />
-                {errors.email && <span className="contact-error">{errors.email}</span>}
+                        <label htmlFor="subject">Asunto: </label>
+                        <input
+                            id='subject'
+                            className="contact-intext"
+                            type="text"
+                            name="subject"
+                            autoComplete="off"
+                            value={subject}
+                            onChange={onInputChange}
+                            onKeyUp={handleKeyUp}
+                            onBlur={handleBlur}
+                        />
+                        {errors.subject && <span className="contact-error">{errors.subject}</span>}
+                    </div>
 
-                <label htmlFor="subject">Asunto: </label>
-                <input
-                    id='subject'
-                    className="contact-intext"
-                    type="text"
-                    name="subject"
-                    autoComplete="off"
-                    value={subject}
-                    onChange={onInputChange}
-                    onKeyUp={handleKeyUp}
-                    onBlur={handleBlur}
-                />
-                {errors.subject && <span className="contact-error">{errors.subject}</span>}
-
-                <label htmlFor="message">Mensaje:</label>
-                <textarea
-                    id='message'
-                    className="contact-intext contact-txtarea"
-                    name="message"
-                    cols="50"
-                    rows="6"
-                    maxLength="400"
-                    value={message}
-                    onChange={onInputChange}
-                    onKeyUp={handleKeyUp}
-                    onBlur={handleBlur}
-                >
-                </textarea>
-                {errors.message && <span className="contact-error">{errors.message}</span>}
+                    <div className='contact-div'>
+                        <label htmlFor="message">Mensaje:</label>
+                        <textarea
+                            id='message'
+                            className="contact-intext contact-txtarea"
+                            name="message"
+                            cols="50"
+                            rows="7"
+                            maxLength="500"
+                            value={message}
+                            onChange={onInputChange}
+                            onKeyUp={handleKeyUp}
+                            onBlur={handleBlur}
+                        >
+                        </textarea>
+                        {errors.message && <span className="contact-error">{errors.message}</span>}
+                    </div>
+                </div>
                 <div className='recaptcha'>
                     <div className='recaptcha-container'>
                         <ReCaptcha sitekey={'6LcRq8wpAAAAAEwqNFCKvgZIaM9MvgJqJfTjU9ZU'} callback={handleRecaptchaVerify} />
