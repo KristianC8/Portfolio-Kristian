@@ -14,6 +14,7 @@ export const Contact = () => {
             setIsCaptchaVerified(true)
             setTimeout(() => {
                 setIsCaptchaVerified(false)
+                window.grecaptcha.reset()
             }, 10000);
         }
     }, [token])
