@@ -1,4 +1,5 @@
 import "./ItemExperience.css"
+import PropTypes from 'prop-types'
 
 export const ItemExperience = ({ svg, company, date, position, description }) => {
 
@@ -23,4 +24,12 @@ export const ItemExperience = ({ svg, company, date, position, description }) =>
             </div>
         </div>
     )
+}
+
+ItemExperience.propTypes = {
+    svg: PropTypes.element.isRequired,
+    company: PropTypes.string.isRequired,
+    date: PropTypes.string.isRequired,
+    position: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired
 }

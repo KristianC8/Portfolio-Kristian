@@ -1,5 +1,5 @@
-import React from 'react'
 import './Badge.css'
+import PropTypes from 'prop-types'
 
 export const Badge = ({ link, name = "Badge", svg }) => {
     return (
@@ -8,5 +8,11 @@ export const Badge = ({ link, name = "Badge", svg }) => {
             <span>{name}</span>
         </a>
     )
+}
+
+Badge.propTypes = {
+    link: PropTypes.string.isRequired,
+    name: PropTypes.string.isRequired,
+    svg: PropTypes.element.isRequired
 }
 

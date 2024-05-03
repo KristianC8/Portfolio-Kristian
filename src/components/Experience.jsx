@@ -1,6 +1,7 @@
 import "./Experience.css"
 import { ItemExperience } from "./ItemExperience"
 import data from "../helpers/experience.json"
+import PropTypes from 'prop-types'
 
 
 export const Experience = ({ svgImg }) => {
@@ -14,4 +15,8 @@ export const Experience = ({ svgImg }) => {
             </div>
         </section>
     )
+}
+
+Experience.propTypes = {
+    svgImg: PropTypes.element.isRequired
 }

@@ -5,6 +5,7 @@ import { ComponentLinkedIn } from './icons/ComponentLinkedIn'
 import { ComponetContact } from './icons/ComponetContact'
 import { ComponentCV } from './icons/ComponentCV'
 import hv from '../assets/pdf/KRISTIAN DARIO CIFUENTES VERA.pdf'
+import PropTypes from 'prop-types'
 
 export const About = ({ foto }) => {
     return (
@@ -58,4 +59,8 @@ export const About = ({ foto }) => {
         </section>
 
     )
+}
+
+About.propTypes = {
+    foto: PropTypes.string.isRequired
 }

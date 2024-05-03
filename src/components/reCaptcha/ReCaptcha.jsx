@@ -1,4 +1,5 @@
-import React, { useEffect, useRef, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
+import PropTypes from 'prop-types'
 
 export const ReCaptcha = ({ sitekey, callback }) => {
 
@@ -40,4 +41,9 @@ export const ReCaptcha = ({ sitekey, callback }) => {
     return (
         <div ref={recaptchaRef} id="reCaptchaV2"></div>
     )
+}
+
+ReCaptcha.propTypes = {
+    sitekey: PropTypes.string.isRequired,
+    callback: PropTypes.func.isRequired
 }

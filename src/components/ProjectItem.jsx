@@ -1,7 +1,7 @@
 import './ProjectItem.css'
-import React from 'react'
 import { ComponentGithub } from './icons/ComponentGithub'
 import { ComponentLinksite } from './icons/ComponentLinksite'
+import PropTypes from 'prop-types'
 
 export const ProjectItem = ({ title, description, srcImg, linkSite, linkCode }) => {
     return (
@@ -34,3 +34,10 @@ export const ProjectItem = ({ title, description, srcImg, linkSite, linkCode }) 
     )
 }
 
+ProjectItem.propTypes = {
+    title: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired,
+    srcImg: PropTypes.string.isRequired,
+    linkSite: PropTypes.string.isRequired,
+    linkCode: PropTypes.string.isRequired,
+}
