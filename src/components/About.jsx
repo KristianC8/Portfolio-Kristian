@@ -16,7 +16,7 @@ export const About = ({ foto }) => {
                     <img className="about-logo" src={foto} alt="Foto de Kritian Cifuentes" />
                 </div>
                 <div className="about-data">
-                    <h2>Kristian Cifuentes</h2>
+                    {/* <h2>Kristian Cifuentes</h2> */}
                     <h2 className="data-profesion">Desarrollador Web Frontend</h2>
                     <div className="about-social">
                         <Badge name="Github" link="https://github.com/KristianC8" svg={<ComponentGithub />} />
@@ -47,12 +47,14 @@ export const About = ({ foto }) => {
                         <div className="console-button console-available"></div>
                     </div>
                     <div className="console-body">
-                        <h1>Hola soy <span>Kristian</span>.</h1>
+                        <h1>Kristian Cifuentes</h1>
                         <p>
-                            Ingeniero en Telecomunicaciones de Bogotá, Colombia. Cuento con tres años de experiencia como Analista de Calidad de Software y ahora como Desarrollador Web, lo que busco es integrar la funcionalidad con un diseño limpio para ofrecer una experiencia de usuario intuitiva, llamativa visualmente y efectiva en su propósito.
+                            Ingeniero en Telecomunicaciones de Bogotá, Colombia. 
                             {/* Ingeniero en Telecomunicaciones de Bogotá, Colombia. Cuento con tres años de experiencia como Analista de Calidad de Software y ahora como Desarrollador Web, lo que busco es integrar la funcionalidad con una buena apariencia para ofrecer una experiencia de usuario intuitiva, llamativa visualmente y efectiva en su propósito. */}
                         </p>
-                        {/* <p></p> */}
+                        <p>
+                            Cuento con tres años de experiencia como Analista de Calidad de Software y ahora como Desarrollador Web, lo que busco es integrar la funcionalidad con un diseño limpio para ofrecer una experiencia de usuario intuitiva, llamativa visualmente y efectiva en su propósito.
+                        </p>
                     </div>
                 </div>
             </div>

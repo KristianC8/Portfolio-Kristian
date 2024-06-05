@@ -20,8 +20,8 @@
 
 
 .about-containerlogo {
-    width: 150rem;
-    height: 150rem;
+    width: 165rem;
+    height: 165rem;
     border-radius: 50%;
 
 }
@@ -133,16 +133,13 @@
     font-size: 28rem;
     font-weight: 500;
     margin-bottom: 20rem;
+    color: #f2613f;
+    font-size: 28rem;
 }
 
 .console-body p {
     font-size: var(--font-secondsizeText);
     margin-bottom: 20rem;
-}
-
-.console-body span {
-    color: #f2613f;
-    font-size: 28rem;
 }
 
 .console-button {
