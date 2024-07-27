@@ -13,6 +13,14 @@ export const Projects = () => {
             description: "Página con un extenso catálogo de videojuegos de diversas plataformas. Desarrollada como una Single Page Application (SPA), con Vanilla JavaScript. Todos los datos de los videojuegos fueron obtenidos desde una API externa.",
             linkSite: "https://stunning-druid-49424c.netlify.app/",
             linkCode: "https://github.com/KristianC8/SPA-Vanilla-Javascript"
+        },
+        {
+            id: 2,
+            image: "https://i.postimg.cc/LXfvWzzb/7-1x-shots-so-1.png",
+            title: "ONLINE STORE WITH REACT       ",
+            description: "Página de comercio electrónico completamente funcional que incluye un carrito de compras. Desarrollada con React, React Router y Tailwind CSS. Los productos se obtuvieron usando AJAX desde una API externa.",
+            linkSite: "https://react-shop-bib.pages.dev/",
+            linkCode: "https://github.com/KristianC8/React-Shop"
         }
     ]
 

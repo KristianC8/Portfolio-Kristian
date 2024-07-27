@@ -6,6 +6,8 @@ import { IconJavaScript } from './icons/IconJavaScript'
 import { IconReact } from './icons/IconReact'
 import { IconGit } from './icons/IconGit'
 import { IconGitHub } from './icons/IconGitHub'
+import { IconTailwind } from './icons/IconTailwind'
+import { IconReactRouter } from './icons/IconReactRouter'
 
 
 export const Skills = () => {
@@ -40,6 +42,16 @@ export const Skills = () => {
             id: 6,
             name: "GitHub",
             svg: <IconGitHub />
+        },
+        {
+            id:7,
+            name: "Tailwind CSS",
+            svg: <IconTailwind />
+        },
+        {
+            id: 8,
+            name: "React Router",
+            svg: <IconReactRouter />
         }
 
     ]
