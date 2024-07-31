@@ -15,17 +15,13 @@ export const ProjectItem = ({ title, description, srcImg, linkSite, linkCode }) 
                 </div>
                 <p className="projectItem-description">{description}</p>
                 <div className="projectItem-buttons">
-                    <a href={linkSite} rel="noopener noreferer" target="_blank">
-                        <button className="projectItem-button button-siteLink">
+                    <a href={linkSite} rel="noopener noreferer" target="_blank" className='projectItem-button button-siteLink'>
                             <span>Ver más</span>
                             {<ComponentLinksite />}
-                        </button>
                     </a>
-                    <a href={linkCode} rel="noopener noreferer" target="_blank">
-                        <button className="projectItem-button button-codeLink">
+                    <a href={linkCode} rel="noopener noreferer" target="_blank" className='projectItem-button button-codeLink'>
                             <span>Código</span>
                             <ComponentGithub />
-                        </button>
                     </a>
                 </div>
             </div>

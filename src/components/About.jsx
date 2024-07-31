@@ -25,17 +25,13 @@ export const About = ({ foto }) => {
                 </div>
 
                 <div className="about-contact">
-                    <a className="about-buttonlink" href={hv} rel="noopener noreferer" target="_blank" title='CV'>
-                        <button className="about-button button-downloadcv">
+                    <a className="about-buttonlink about-button button-downloadcv" href={hv} rel="noopener noreferer" target="_blank" title='CV'>
                             <span>CV</span>
                             <ComponentCV />
-                        </button>
                     </a>
-                    <a className="about-buttonlink" href="mailto:kristian.cifuentesv@gmail.com" rel="noopener noreferer" target="_blank" title='Contacto'>
-                        <button className="about-button button-contactme">
+                    <a className="about-buttonlink about-button button-contactme" href="mailto:kristian.cifuentesv@gmail.com" rel="noopener noreferer" target="_blank" title='Contacto'>
                             <span>Contacto</span>
                             <ComponetContact />
-                        </button>
                     </a>
                 </div>
             </div>
