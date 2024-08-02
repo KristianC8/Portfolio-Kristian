@@ -2,11 +2,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 8rem;
-    padding: 2rem 8rem;
+    gap: .5rem;
+    padding: .125rem .5rem;
     text-decoration: none;
     color: #c0c0c0;
-    border: 1rem solid;
+    border: thin solid;
     opacity: 0.7;
 
 }
@@ -20,8 +20,8 @@
 }
 
 .badge-link svg {
-    height: 20rem;
-    width: 20rem;
+    height: 1.25rem;
+    width: 1.25rem;
 }
 
 
@@ -29,7 +29,7 @@
 
 @media only screen and (max-width: 1000px) {
     .badge-link {
-        padding: 5rem;
+        padding: .3125rem;
     }
 
 }

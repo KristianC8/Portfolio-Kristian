@@ -1,7 +1,7 @@
 :root {
 
-  --font-sizeText: 20rem;
-  --font-secondsizeText: 18rem;
+  --font-sizeText: 1.25rem;
+  --font-secondsizeText: 1.125rem;
   --subtitle-color: #C69749;
 
   font-family: 'IBM Plex Mono', monospace;
@@ -20,7 +20,7 @@
 }
 
 html {
-  font-size: 6.25%;
+  /* font-size: 6.25%; */
   scroll-behavior: smooth;
   scrollbar-width: thin;
   scrollbar-color: #161616 #2d2d2d;
@@ -30,8 +30,12 @@ html {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-size: var(--font-sizeText);
+  /* font-size: var(--font-sizeText); */
   font-family: 'IBM Plex Mono', monospace;
+}
+
+h2 {
+  font-size: var(--font-sizeText);
 }
 
 /* a {
@@ -90,15 +94,15 @@ button:focus-visible {
 
 @media only screen and (max-width: 1400px) {
   :root {
-    --font-sizeText: 16rem;
-    --font-secondsizeText: 14rem;
+    --font-sizeText: 1rem;
+    --font-secondsizeText: .875rem;
   }
 }
 
 @media only screen and (max-width: 600px) {
   :root {
-    --font-sizeText: 14rem;
-    --font-secondsizeText: 12rem;
+    --font-sizeText: .875rem;
+    --font-secondsizeText: .75rem;
   }
 }
 

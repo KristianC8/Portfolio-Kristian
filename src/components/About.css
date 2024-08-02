@@ -6,22 +6,22 @@
     display: flex;
     flex-flow: column;
     align-items: center;
-    gap: 20rem;
+    gap: 1.25rem;
     justify-content: space-between;
-    min-width: 300rem;
-    padding: 40rem 0 0 0;
+    min-width: 18.75rem;
+    padding: 2.5rem 0 0 0;
     background: url('../assets/img/img-noise-361x370.png');
     background-size: cover;
     background-position: center;
     /* background-color: #50b432; */
-    border: solid 1rem #d8d8d810;
+    border: solid thin #d8d8d810;
     z-index: 1;
 }
 
 
 .about-containerlogo {
-    width: 165rem;
-    height: 165rem;
+    width: 10.3125rem;
+    height: 10.3125rem;
     border-radius: 50%;
 
 }
@@ -38,7 +38,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10rem;
+    gap: 0.625rem;
 }
 
 .data-profesion {
@@ -48,7 +48,7 @@
 
 .about-social {
     display: flex;
-    gap: 5rem;
+    gap: 0.3125rem;
     justify-content: center;
 }
 
@@ -66,9 +66,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 8rem;
+    gap: .5rem;
     width: 100%;
-    height: 60rem;
+    height: 3.75rem;
     border: solid thin #2d2d2d;
     background-color: #d8d8d810;
     cursor: pointer;
@@ -87,8 +87,8 @@
 }
 
 .about-button svg {
-    height: 30rem;
-    width: 30rem;
+    height: 1.875rem;
+    width: 1.875rem;
 }
 
 .about-aboutMe {
@@ -107,13 +107,13 @@
     display: flex;
     justify-content: end;
     align-items: center;
-    padding: 0 20rem;
-    gap: 10rem;
+    padding: 0 1.25rem;
+    gap: 0.625rem;
     background-color: #d8d8d810;
 }
 
 .console-header h2 {
-    padding: 10rem 0;
+    padding: 0.625rem 0;
     margin: 0 auto 0 0;
 }
 
@@ -122,7 +122,7 @@
     flex-direction: column;
     justify-content: center;
     height: fit-content;
-    min-height: 350rem;
+    min-height: 21.875rem;
     padding: 5% 10%;
     background-color: #101010;
     color: #c0c0c0;
@@ -130,21 +130,21 @@
 }
 
 .console-body h1 {
-    font-size: 28rem;
+    font-size: 1.75rem;
     font-weight: 500;
-    margin-bottom: 20rem;
+    margin-bottom: 1.25rem;
     color: #f2613f;
-    font-size: 28rem;
+    font-size: 1.75rem;
 }
 
 .console-body p {
     font-size: var(--font-secondsizeText);
-    margin-bottom: 20rem;
+    margin-bottom: 1.25rem;
 }
 
 .console-button {
-    height: 15rem;
-    width: 15rem;
+    height: 0.9375rem;
+    width: 0.9375rem;
     border-radius: 50%;
 }
 
@@ -162,16 +162,16 @@
 
 @media only screen and (max-width: 1400px) {
     .about-button svg {
-        height: 24rem;
-        width: 24rem;
+        height: 1.5rem;
+        width: 1.5rem;
     }
 }
 
 @media only screen and (max-width: 1100px) {
     .about {
-        margin-top: 5rem;
+        margin-top: .3125rem;
         flex-direction: column;
-        gap: 30rem;
+        gap: 1.875rem;
     }
 
     .about-information {
@@ -182,25 +182,25 @@
     }
 
     .about-data {
-        gap: 15rem;
+        gap: .9375rem;
     }
 
     .about-containerlogo {
-        padding: 20rem;
+        padding: 1.25rem;
     }
 
     .about-social {
-        gap: 10rem;
+        gap: .625rem;
     }
 
     .about-contact {
-        width: 150rem;
+        width: 9.375rem;
         height: 74%;
-        padding-right: 20rem;
+        padding-right: 1.25rem;
         flex-direction: column;
         align-items: end;
         justify-content: center;
-        gap: 10rem;
+        gap: .625rem;
     }
 
     .about-buttonlink {
@@ -222,15 +222,15 @@
     }
 
     .console-body {
-        padding: 40rem 8%;
-        min-height: 300rem;
+        padding: 2.5rem 8%;
+        min-height: 18.75rem;
     }
 }
 
 @media only screen and (max-width: 600px) {
 
     .about {
-        margin-top: 152rem;
+        margin-top: 9.5rem;
     }
 
     .about-information {
@@ -239,18 +239,18 @@
         top: 0;
         left: 0;
         right: 0;
-        min-width: 320rem;
+        min-width: 20rem;
     }
 
     .about-data {
-        padding: 5rem 0;
-        gap: 10rem;
+        padding: .3125rem 0;
+        gap: .625rem;
     }
 
     .about-containerlogo {
         width: 18.75%;
         height: auto;
-        padding: 5rem;
+        padding: .3125rem;
     }
 
     .about-contact {
@@ -258,19 +258,19 @@
         align-items: end;
         padding-right: 0;
         height: 100%;
-        gap: 2rem;
+        gap: .125rem;
         /* width: 60rem; */
         width: 18.75%;
     }
 
     .about-buttonlink {
         width: 100%;
-        height: 60rem;
+        height: 3.75rem;
     }
 
     .about-button svg {
-        height: 21rem;
-        width: 21rem;
+        height: 1.3125rem;
+        width: 1.3125rem;
     }
 
     .console-button {
@@ -282,14 +282,14 @@
     }
 
     .console-body {
-        padding: 30rem 8%;
-        min-height: 300rem;
+        padding: 1.875rem 8%;
+        min-height: 18.75rem;
     }
 
 }
 
 @media only screen and (min-width: 1400px) {
     .about-information {
-        min-width: 360rem;
+        min-width: 22.5rem;
     }
 }

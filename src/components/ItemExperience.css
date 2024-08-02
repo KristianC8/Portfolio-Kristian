@@ -1,13 +1,14 @@
 .itemexp {
     display: grid;
     grid-template-columns: 1.5fr .5fr 8fr;
-    gap: 8rem;
+    gap: .5rem;
 }
 
 .itemexp-date {
+    font-size: var(--font-sizeText);
     display: flex;
     flex-direction: column;
-    min-width: 200rem;
+    min-width: 12.5rem;
     color: #c0c0c0;
 }
 
@@ -21,20 +22,20 @@
 
 .itemexp-timeline svg {
     position: absolute;
-    width: 30rem;
-    height: 30rem;
+    width: 1.875rem;
+    height: 1.875rem;
     /* color: #2d2d2d; */
     color: #C69749;
 }
 
 .timeline-space {
-    height: 30rem;
-    width: 2rem;
+    height: 1.875rem;
+    width: .125rem;
 }
 
 .timeline {
     height: 100%;
-    width: 2rem;
+    width: .125rem;
     /* background-color: #f2613f; */
     background-color: #C69749;
 }
@@ -44,7 +45,7 @@
 } */
 
 .itemexp-information {
-    padding: 0 0 10rem 3%;
+    padding: 0 0 .625rem 3%;
 }
 
 /* .itemexp-title {
@@ -53,6 +54,10 @@
 
 .itemexp-enterprise {
     color: #f2613f;
+}
+
+.itemexp-title {
+    font-size: var(--font-sizeText);
 }
 
 .itemexp-description {
@@ -69,30 +74,30 @@
 
 @media only screen and (max-width: 1400px) {
     .itemexp-timeline svg {
-        width: 24rem;
-        height: 24rem;
+        width: 1.5rem;
+        height: 1.5rem;
     }
 
     .timeline-space {
-        height: 24rem;
+        height: 1.5rem;
     }
 
     .itemexp-date {
-        min-width: 120rem;
+        min-width: 7.5rem;
     }
 }
 
 @media only screen and (max-width: 600px) {
     .itemexp-timeline svg {
-        width: 21rem;
-        height: 21rem;
+        width: 1.3125rem;
+        height: 1.3125rem;
     }
 
     .timeline-space {
-        height: 21rem;
+        height: 1.3125rem;
     }
 
     .itemexp-date {
-        min-width: 100rem;
+        min-width: 6.25rem;
     }
 }

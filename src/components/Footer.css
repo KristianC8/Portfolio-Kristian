@@ -2,14 +2,14 @@
     display: flex;
     justify-content: space-between;
     align-items: start;
-    padding-top: 10rem;
-    height: 120rem;
-    border-top: solid 1rem #d8d8d810;
+    padding-top: .625rem;
+    height: 7.5rem;
+    border-top: solid thin #d8d8d810;
 }
 
 .footer-logo {
-    height: 40rem;
-    width: 75rem;
+    height: 2.5rem;
+    width: 4.6875rem;
     background-image: url('../assets/img/LogoFoot.svg');
     background-repeat: no-repeat;
     background-position: center;
@@ -17,35 +17,37 @@
 }
 
 .footer svg {
-    height: 24rem;
-    width: 24rem;
+    height: 1.5rem;
+    width: 1.5rem;
 }
 
 .footer a {
     color: #f2613f;
-    height: 40rem;
-    width: 75rem;
+    height: 2.5rem;
+    width: 4.6875rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     text-decoration: none;
+    font-size: var(--font-sizeText);
 }
 
 .footer-date {
     color: #c0c0c0;
+    font-size: var(--font-sizeText);
 }
 
 
 @media only screen and (max-width: 1100px) {
     .footer-logo {
-        height: 35rem;
-        width: 65rem;
+        height: 2.1875rem;
+        width: 4.0625rem;
     }
 
 
     .footer a {
-        height: 35rem;
-        width: 65rem;
+        height: 2.1875rem;
+        width: 4.0625rem;
     }
 }
 
@@ -53,14 +55,14 @@
 @media only screen and (max-width: 600px) {
 
     .footer {
-        height: 100rem;
+        height: 6.25rem;
     }
 
     .footer-logo {
-        height: 35rem;
+        height: 2.1875rem;
     }
 
     .footer a {
-        height: 30rem;
+        height: 1.875rem;
     }
 }

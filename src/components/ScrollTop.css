@@ -2,10 +2,10 @@
     display: grid;
     place-items: center;
     position: fixed;
-    bottom: 10rem;
-    right: 10rem;
-    height: 40rem;
-    width: 40rem;
+    bottom: .625rem;
+    right: .625rem;
+    height: 2.5rem;
+    width: 2.5rem;
     background-color: #f2613f;
     border: none;
     transition: opacity ease-in-out .5s;
@@ -22,8 +22,8 @@
 }
 
 .scrolltop-img {
-    height: 30rem;
-    width: 30rem;
+    height: 1.875rem;
+    width: 1.875rem;
     background-image: url('../assets/img/arrow_up.svg');
     background-position: center;
     background-repeat: no-repeat;
@@ -32,8 +32,8 @@
 
 @media only screen and (max-width: 600px) {
     .scrolltop-btn {
-        height: 35rem;
-        width: 35rem;
+        height: 2.1875rem;
+        width: 2.1875rem;
     }
 }
 

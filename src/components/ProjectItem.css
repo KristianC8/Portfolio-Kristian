@@ -21,13 +21,13 @@
 
 .projectItem-division {
     display: flex;
-    padding: 5rem 30rem;
+    padding: .3125rem 1.875rem;
 }
 
 .projectItem-divn {
     display: block;
     width: 50%;
-    height: 1rem;
+    height: .0625rem;
     /* background-color: #f2613f; */
     background-color: #C69749;
 }
@@ -48,12 +48,12 @@
     color: #c0c0c0;
     text-wrap: pretty;
     font-size: var(--font-secondsizeText);
-    margin-bottom: 10rem;
+    margin-bottom: .625rem;
 }
 
 .projectItem-buttons {
     display: flex;
-    gap: 10rem;
+    gap: .625rem;
 }
 
 .projectItem-buttons a {
@@ -64,10 +64,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5rem;
+    gap: .3125rem;
     width: fit-content;
     height: fit-content;
-    padding: 5rem;
+    padding: .3125rem;
     border: none;
     background-color: #f2613f;
     color: #ffffff;
@@ -85,14 +85,14 @@
 }
 
 .projectItem-button svg {
-    height: 30rem;
-    width: 30rem;
+    height: 1.875rem;
+    width: 1.875rem;
 }
 
 @media only screen and (max-width: 1400px) {
     .projectItem-button svg {
-        height: 24rem;
-        width: 24rem;
+        height: 1.5rem;
+        width: 1.5rem;
     }
 }
 
@@ -113,7 +113,7 @@
 
 @media only screen and (max-width: 600px) {
     .projectItem-button svg {
-        height: 21rem;
-        width: 21rem;
+        height: 1.3125rem;
+        width: 1.3125rem;
     }
 }

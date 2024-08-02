@@ -1,19 +1,20 @@
 .header {
-    margin-top: 34rem;
+    margin-top: 2.125rem;
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 2;
+    font-size: var(--font-sizeText);
 }
 
 .header-navigation {
     position: fixed;
     top: 0;
     display: flex;
-    gap: 20rem;
-    padding: 5rem 15rem;
+    gap: 1.25rem;
+    padding: .3125rem 0.9375rem;
     background-color: #d8d8d810;
-    backdrop-filter: blur(5rem);
+    backdrop-filter: blur(.3125rem);
 }
 
 .navigation-option {
@@ -37,6 +38,6 @@
 
 @media only screen and (min-width: 1400px) {
     .header {
-        margin-top: 30rem;
+        margin-top: 1.875rem;
     }
 }

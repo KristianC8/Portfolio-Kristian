@@ -1,10 +1,10 @@
 .experience-container {
-    padding: 20rem 0 0 0;
+    padding: 1.25rem 0 0 0;
 }
 
 @media only screen and (max-width: 1100px) {
 
     .experience-container {
-        padding: 30rem 0 0 0;
+        padding: 1.875rem 0 0 0;
     }
 }
