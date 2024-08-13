@@ -8,7 +8,7 @@ export const Projects = () => {
     const projects = [
         {
             id: 1,
-            image: "https://i.postimg.cc/TwCwGSLc/videogames-spa.webp",
+            image: "https://iili.io/d1SqYEF.webp",
             title: "SPA VIDEOGAMES",
             description: "Página con un extenso catálogo de videojuegos de diversas plataformas. Desarrollada como una Single Page Application (SPA), con Vanilla JavaScript. Todos los datos de los videojuegos fueron obtenidos desde una API externa.",
             linkSite: "https://stunning-druid-49424c.netlify.app/",
@@ -16,7 +16,7 @@ export const Projects = () => {
         },
         {
             id: 2,
-            image: "https://i.postimg.cc/LXfvWzzb/7-1x-shots-so-1.png",
+            image: "https://iili.io/d1SBLPt.png",
             title: "ONLINE STORE WITH REACT       ",
             description: "Página de comercio electrónico completamente funcional que incluye un carrito de compras. Desarrollada con React, React Router y Tailwind CSS. Los productos se obtuvieron usando AJAX desde una API externa.",
             linkSite: "https://react-shop-bib.pages.dev/",
