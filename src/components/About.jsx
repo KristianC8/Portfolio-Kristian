@@ -41,7 +41,7 @@ export const About = ({ foto }) => {
             href={hv}
             rel='noopener noreferer'
             target='_blank'
-            title='Curriculum'
+            title='Hoja de Vida'
           >
             <span>Curriculum</span>
             <ComponentCV />
