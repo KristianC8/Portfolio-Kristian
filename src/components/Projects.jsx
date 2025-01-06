@@ -26,7 +26,7 @@ export const Projects = () => {
       image: 'https://iili.io/2UHA22V.jpg',
       title: 'KANBAN BOARD APP',
       description:
-        'Tablero Kanban diseñado para optimizar la organización y gestión de tareas. La página fue desarrollada en el backend con Java Spring Boot y el frontend con React, permite crear, mover y actualizar tareas en tiempo real. ',
+        'Tablero Kanban diseñado para optimizar la organización y gestión de tareas. La página fue desarrollada en el backend con Java Spring Boot y el frontend con React. Permite crear, mover y actualizar tareas en tiempo real. ',
       linkSite: 'https://kanban-app-front.vercel.app/',
       linkCode: 'https://github.com/KristianC8/Kanban-App-Front'
     }
