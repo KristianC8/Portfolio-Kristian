@@ -62,7 +62,15 @@ export const About = ({ foto }) => {
         <div className='aboutme-console'>
           <div className='console-header'>
             <h2>Sobre Mi/</h2>
-            <span className='console-availabletxt'>Disponible</span>
+            <a
+              href='https://kristianc8.github.io/'
+              target='_blank'
+              rel='noopener noreferer'
+              className='console-availabletxt'
+              title='Disponible para trabajar'
+            >
+              Disponible
+            </a>
             <div className='console-button console-available'></div>
           </div>
           <div className='console-body'>

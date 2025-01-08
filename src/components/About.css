@@ -154,6 +154,7 @@
 }
 
 .console-availabletxt {
+  text-decoration: none;
   font-size: var(--font-secondsizeText);
   color: #59c837;
 }
