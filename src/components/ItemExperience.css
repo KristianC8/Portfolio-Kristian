@@ -2,6 +2,12 @@
     display: grid;
     grid-template-columns: 1.5fr .5fr 8fr;
     gap: .5rem;
+    border-right: solid thin #b8b8b810;
+    border-bottom: solid thin #b8b8b810;
+    border-left: solid thin #b8b8b810;
+
+    background-image: url('../assets/img/img-noise-361x370.png');
+    padding: 1rem 2rem;
 }
 
 .itemexp-date {
@@ -88,6 +94,11 @@
 }
 
 @media only screen and (max-width: 600px) {
+
+    .itemexp {
+        padding: 0;
+    }
+
     .itemexp-timeline svg {
         width: 1.3125rem;
         height: 1.3125rem;
