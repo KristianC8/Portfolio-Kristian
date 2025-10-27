@@ -3,12 +3,7 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: .3125rem;
-    padding: 1.25rem 0 0 0;
-}
-
-
-@media only screen and (max-width: 1100px) {
-    .skills-container {
-        padding: 1.875rem 0 0 0;
-    }
+    padding: 1.25rem 0;
+    background-image: url('../assets/img/img-noise-361x370.png');
+    border: solid thin #b8b8b810;
 }
