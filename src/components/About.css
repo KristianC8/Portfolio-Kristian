@@ -98,6 +98,7 @@
 .aboutme-console {
   height: 100%;
   width: 97%;
+  border: solid thin #b8b8b810;
 }
 
 .console-header {
@@ -140,11 +141,11 @@
   margin-bottom: 1.25rem;
 }
 
-.console-button {
+/* .console-button {
   height: 0.9375rem;
   width: 0.9375rem;
   border-radius: 50%;
-}
+} */
 
 /* background-color: #f1ae1b; */
 /* background-color: #e9524a; */
@@ -154,6 +155,9 @@
 }
 
 .console-availabletxt {
+  display: flex;
+  align-items: center;
+  gap: .25rem;
   text-decoration: none;
   font-size: var(--font-secondsizeText);
   color: #59c837;
@@ -237,7 +241,7 @@
     top: 0;
     left: 0;
     right: 0;
-    min-width: 20rem;
+    /* min-width: 316px; */
   }
 
   .about-data {
@@ -269,10 +273,6 @@
   .about-button svg {
     height: 1.3125rem;
     width: 1.3125rem;
-  }
-
-  .console-button {
-    display: none;
   }
 
   .aboutme-console {
