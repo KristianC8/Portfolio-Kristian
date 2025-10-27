@@ -1,8 +1,10 @@
 .contact-form {
-    padding: 1.875rem 0 0 0;
+    padding: 1.875rem .2rem;
     display: flex;
     flex-direction: column;
     gap: .3125rem;
+    border: solid thin #b8b8b810;
+    background-image: url('../assets/img/img-noise-361x370.png');
 }
 
 .contact-form label {
@@ -83,9 +85,6 @@
 }
 
 @media only screen and (min-width: 1100px) {
-    .contact-form {
-        padding: 1.25rem 0 0 0;
-    }
 
     .contact-container {
         display: flex;
@@ -104,5 +103,11 @@
 
     .contact-txtarea {
         height: 100%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .contact-form {
+        padding: 1.25rem 2rem;
     }
 }
