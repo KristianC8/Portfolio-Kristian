@@ -6,6 +6,7 @@ import { ComponetContact } from './icons/ComponetContact'
 import { ComponentCV } from './icons/ComponentCV'
 import hv from '../assets/pdf/KRISTIAN DARIO CIFUENTES VERA.pdf'
 import PropTypes from 'prop-types'
+import { IconClick } from './icons/IconClick'
 
 export const About = ({ foto }) => {
   return (
@@ -70,8 +71,8 @@ export const About = ({ foto }) => {
               title='Disponible para trabajar'
             >
               Disponible
+              <IconClick />
             </a>
-            <div className='console-button console-available'></div>
           </div>
           <div className='console-body'>
             <h1>Kristian Cifuentes</h1>
