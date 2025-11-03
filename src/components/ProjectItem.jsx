@@ -16,7 +16,7 @@ export const ProjectItem = ({ title, description, srcImg, linkSite, linkCode }) 
                 <p className="projectItem-description">{description}</p>
                 <div className="projectItem-buttons">
                     <a href={linkSite} rel="noopener noreferer" target="_blank" className='projectItem-button button-siteLink'>
-                            <span>Ver más</span>
+                            <span>Visitar</span>
                             {<ComponentLinksite />}
                     </a>
                     <a href={linkCode} rel="noopener noreferer" target="_blank" className='projectItem-button button-codeLink'>
