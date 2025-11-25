@@ -1,6 +1,6 @@
 # Portfolio Kristian Cifuentes
 
-![Portfolio Preview](https://i.postimg.cc/T2nB1h7P/portada-portfolio.jpg)
+![Portfolio Preview](https://iili.io/fqTejB2.png)
 
 Portfolio personal de Kristian Cifuentes - Desarrollador Web Frontend. Aquí encontrarás mis proyectos, un poco sobre mí, experiencia y habilidades.
 
