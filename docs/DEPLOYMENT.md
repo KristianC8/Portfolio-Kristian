@@ -656,5 +656,3 @@ npm run build
 - Asegúrate de que los archivos CSS se importen correctamente
 
 ---
-
-**¡Tu portfolio está listo para el mundo! 🚀**

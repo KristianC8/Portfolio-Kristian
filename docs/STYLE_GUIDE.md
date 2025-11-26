@@ -849,5 +849,3 @@ Antes de hacer commit, verifica:
 - [ ] Atributos de accesibilidad están presentes
 
 ---
-
-**Mantener código limpio es responsabilidad de todos. ¡Gracias por seguir estas guías! 🚀**

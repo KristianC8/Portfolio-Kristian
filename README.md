@@ -307,4 +307,4 @@ Este proyecto está bajo la Licencia MIT. Ver el archivo [LICENSE](./LICENSE) pa
 
 ⭐ Si te gusta este proyecto, ¡no olvides darle una estrella en GitHub!
 
-**Hecho con ❤️ por Kristian Cifuentes**
+**Hecho por Kristian Cifuentes**

@@ -428,10 +428,6 @@ La documentación se actualiza cuando:
 
 ---
 
-**¡Feliz lectura y codificación! 🚀**
-
----
-
 **Última actualización**: Noviembre 2025  
 **Mantenido por**: Kristian Cifuentes  
 **Contacto**: kristian.cifuentesv@gmail.com
