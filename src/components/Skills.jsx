@@ -8,60 +8,71 @@ import { IconGit } from './icons/IconGit'
 import { IconGitHub } from './icons/IconGitHub'
 import { IconTailwind } from './icons/IconTailwind'
 import { IconReactRouter } from './icons/IconReactRouter'
-
+import { IconSAP } from './icons/IconSAP'
+import { IconTypeScript } from './icons/IconTypeScript'
 
 export const Skills = () => {
+  const skills = [
+    {
+      id: 1,
+      name: 'HTML',
+      svg: <IconHtml />
+    },
+    {
+      id: 2,
+      name: 'CSS',
+      svg: <IconCss />
+    },
+    {
+      id: 3,
+      name: 'JavaScript',
+      svg: <IconJavaScript />
+    },
+    {
+      id: 4,
+      name: 'TypeScript',
+      svg: <IconTypeScript />
+    },
+    {
+      id: 5,
+      name: 'React',
+      svg: <IconReact />
+    },
+    {
+      id: 6,
+      name: 'Git',
+      svg: <IconGit />
+    },
+    {
+      id: 7,
+      name: 'GitHub',
+      svg: <IconGitHub />
+    },
+    {
+      id: 8,
+      name: 'Tailwind CSS',
+      svg: <IconTailwind />
+    },
+    {
+      id: 9,
+      name: 'React Router',
+      svg: <IconReactRouter />
+    },
+    {
+      id: 10,
+      name: 'Fiori SAPUI5',
+      svg: <IconSAP />
+    }
+  ]
 
-    const skills = [
-        {
-            id: 1,
-            name: "HTML",
-            svg: <IconHtml />
-        },
-        {
-            id: 2,
-            name: "CSS",
-            svg: <IconCss />
-        },
-        {
-            id: 3,
-            name: "JavaScript",
-            svg: <IconJavaScript />
-        },
-        {
-            id: 4,
-            name: "React",
-            svg: <IconReact />
-        },
-        {
-            id: 5,
-            name: "Git",
-            svg: <IconGit />
-        },
-        {
-            id: 6,
-            name: "GitHub",
-            svg: <IconGitHub />
-        },
-        {
-            id:7,
-            name: "Tailwind CSS",
-            svg: <IconTailwind />
-        },
-        {
-            id: 8,
-            name: "React Router",
-            svg: <IconReactRouter />
-        }
-
-    ]
-
-    return (
-        <section id='skills'>
-            <h2>Habilidades/</h2>
-            <div className='skills-container'>
-                {skills.map(el => <Tag key={el.id} name={el.name} svg={el.svg} />)}
-            </div>
-        </section>
-    )
+  return (
+    <section id='skills'>
+      <h2>Habilidades/</h2>
+      <div className='skills-container'>
+        {skills.map((el) => (
+          <Tag key={el.id} name={el.name} svg={el.svg} />
+        ))}
+      </div>
+    </section>
+  )
 }
